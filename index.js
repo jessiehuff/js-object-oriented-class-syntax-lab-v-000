@@ -4,9 +4,11 @@ class BoardMember {
     this.homeState = homeState;
     this.training = training; 
   };
+  
   veto(){
     returns "No, I must disagree";
   };
+  
   approve(){
     returns `You can do that!`;
   };
